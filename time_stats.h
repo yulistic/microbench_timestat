@@ -1,3 +1,6 @@
+#ifndef _TIME_STATS_H_
+#define _TIME_STATS_H_
+
 #include <stdio.h>
 #include <time.h>
 #include <sys/time.h>
@@ -20,4 +23,6 @@ double time_stats_get_avg(struct time_stats *);
 
 #ifdef __cplusplus
 }
+#endif
+
 #endif
